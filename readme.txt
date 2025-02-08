@@ -17,6 +17,23 @@ AIBot Studio allows you to add an AI chatbot to specific pages on your WordPress
 
 == Changelog ==
 
+= 1.0.6 =
+* Updated vendor dependencies for improved compatibility.
+* Optimized chatbot initialization and performance.
+* Enhanced security by sanitizing and validating input fields.
+* Fixed UI inconsistencies in the admin settings page.
+* Resolved an issue where some settings were not saving correctly.
+
+= 1.0.5 =
+* Improved error handling and debugging support.
+* Enhanced chatbot script loading in various themes.
+* Fixed inconsistencies in settings validation.
+
+= 1.0.4 =
+* Improved wildcard matching for page rules.
+* Enhanced compatibility with caching plugins.
+* Removed duplicate "View details" link in the plugin listing.
+
 = 1.0.3 =
 * Implemented automatic updates using **Plugin Update Checker**.
 * Changed WordPress sidebar menu icon to a **chat bubble**.
