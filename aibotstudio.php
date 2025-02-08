@@ -2,7 +2,7 @@
 /**
  * Plugin Name: AIBot Studio
  * Description: A plugin to display custom AI Chatbots on selected pages.
- * Version: 1.0.2
+ * Version: 1.0.3
  * Author: AIBot Studio
  * Author URI: https://aibotstudio.org/plugin
  * License: GPL2
@@ -133,7 +133,7 @@ add_action('wp_footer', 'aibotstudio_display_chatbot');
 // Add custom links to the plugin listing
 function aibotstudio_plugin_links($links, $file) {
     if ($file === plugin_basename(__FILE__)) {
-        $links[] = '<a href="https://aibotstudio.org/plugin" target="_blank">View details</a>';
+        $links[] = '';
         $links[] = '<a href="https://aibotstudio.org/donate" target="_blank">Donate</a>';
         $links[] = '<a href="https://aibotstudio.org/support" target="_blank">Support</a>';
     }
