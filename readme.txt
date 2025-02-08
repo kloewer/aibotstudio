@@ -8,7 +8,7 @@ License: GPL2
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 == Description ==
-AIBot Studio allows you to add an AI chatbot to specific pages on your WordPress site.
+AIBot Studio allows you to add an AI chatbot to specific pages on your WordPress site. Get your own AI Chatbot at https://aibotstudio.org
 
 == Installation ==
 1. Upload the plugin files to `/wp-content/plugins/aibotstudio/`, or install via the WordPress plugin repository.
@@ -16,5 +16,18 @@ AIBot Studio allows you to add an AI chatbot to specific pages on your WordPress
 3. Navigate to **Settings > AIBot Studio** to configure the chatbot.
 
 == Changelog ==
+
+= 1.0.3 =
+* Implemented automatic updates using **Plugin Update Checker**.
+* Changed WordPress sidebar menu icon to a **chat bubble**.
+* Removed duplicate "View details" button from the plugin listing.
+* Fixed missing **plugin-update-checker** and **vendor** folders due to `.gitignore`.
+* Resolved an issue where the chatbot was not displaying properly on certain included pages.
+
+= 1.0.2 =
+* Added chatbot display settings (enable, chatbot ID, included/excluded pages).
+* Injected chatbot script dynamically in the header.
+* Implemented wildcard pattern matching for included/excluded pages.
+
 = 1.0.1 =
-* Initial release
+* Initial release with chatbot integration.
