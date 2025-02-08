@@ -2,7 +2,7 @@
 /**
  * Plugin Name: AIBot Studio
  * Description: A plugin to display custom AI Chatbots on selected pages.
- * Version: 1.0.3
+ * Version: 1.0.4
  * Author: AIBot Studio
  * Author URI: https://aibotstudio.org/plugin
  * License: GPL2
